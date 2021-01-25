@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
     $('a').click(function(event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -7,10 +7,9 @@ $(document).ready(function() {
                 scrollTop: $(hash).offset().top
             }, 800, function() {
                 window.location.hash = hash;
-            })
+            });
         }
-    })
-    $(function() {
-        $('[data-toggle="popover"]').popover()
-    })
-})
+    })    
+}); 
+
+// (document).ready

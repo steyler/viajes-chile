@@ -88,3 +88,16 @@ footer {
 .fa-facebook-square {
     color: white;
 }
+
+
+/* .prueba {
+    border: 1px solid transparent
+} */
+
+.prueba {
+    height: 100px;
+    width: 100px;
+    margin: 100px;
+    border: 10px solid transparent;
+    border-color: rgba(0, 0, 0, 0);
+}
